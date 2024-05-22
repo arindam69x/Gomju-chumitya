@@ -60,14 +60,6 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    InlineKeyboardButton('VC Music', url='https://t.me/Shu_Kurenai_xbot?startgroup=true')
-                ),
-                (
-                   InlineKeyboardButton('Anime Channel', url='https://t.me/Anime_Sprizen') 
-                ),
-            ],
-            [
-                (
                     
                     "📚 Commands & Help", "commands"
                 ),
