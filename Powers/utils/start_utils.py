@@ -43,43 +43,33 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
-                (
-                    "Support 👥",
-                    f"https://t.me/{SUPPORT_GROUP}",
-                    "url",
-                ),
+                
             ],
             [
                 (
-                    "📚 Commands & Help", "commands"
+                  
+                    "Update channel",
+                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
+                    "url",
                 ),
                 (
-                    "👾 Bot info",
-                    "bot_curr_info"
+                    "Support Group",
+                    f"https://t.me/{SUPPORT_GROUP}",
+                    "url",
                 )
             ],
             [
                 (
-                    "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
-                    "url",
+                    InlineKeyboardButton('VC Music', url='https://t.me/Shu_Kurenai_xbot?startgroup=true')
                 ),
                 (
-                    "Owner ❤️",
-                    Config.OWNER_ID,
-                    "user_id",
+                   InlineKeyboardButton('Anime Channel', url='https://t.me/Anime_Sprizen') 
                 ),
             ],
             [
                 (
-                    "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
-                    "url",
-                ),
-                (
-                    "Powered by",
-                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
-                    "url",
+                    
+                    "📚 Commands & Help", "commands"
                 ),
             ],
         ],
